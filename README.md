@@ -34,8 +34,6 @@ export OPENAI_API_KEY=<openai_api_key>
 export BASE_URL=<base_url>
 # 2 autogen所需环境变量，OAI_CONFIG_LIST为根目录下的一个文件，替换其内容中的"<...>"，替换后执行以下代码（如果是使用官网的openai_api_key，请删掉<base_url>那几行）
 export OAI_CONFIG_LIST=$(cat ./OAI_CONFIG_LIST)
-# 3 WebSurferAgent所需环境变量（可不设置，要体验此Agent相关功能时会报错）
-export BING_API_KEY=<bing_api_key>
 ```
 
 ## 单个agent测试
