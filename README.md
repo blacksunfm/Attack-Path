@@ -46,6 +46,15 @@ cd tests/agent_test/test_code_exec_agent
 python test_code_exec_agent.py
 ```
 
+## 运行系统
+
+修改main.py中的url和question1字段，即目标地址和任务要求，然后运行脚本
+
+```shell
+python main.py
+```
+
+
 
 
 
